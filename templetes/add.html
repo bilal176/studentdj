@@ -72,7 +72,7 @@
   </thead>
   <tbody>
     <!-- Run a for loop here and iterate through all the index -->
-    {% for students in task %}
+
     
     <tr>
 
@@ -86,7 +86,54 @@
       <td class="table-light">{{students.superident}}</td>
     </tr>
     
-    {% endfor %}
+       <tr>
+
+   
+      <th class="table-primary" scope="row">{{forloop.counter}}</th>
+      <td class="table-secondary" >{{students.name}}</td>
+      <td class="table-success">{{students.reg}}</td>
+      <td class="table-danger">{{students.sec}}</td>
+      <td class="table-warning">{{students.project_name}}</td>
+      <td class="table-info">{{students.project_field}}</td>
+      <td class="table-light">{{students.superident}}</td>
+    </tr>
+   
+       <tr>
+
+   
+      <th class="table-primary" scope="row">{{forloop.counter}}</th>
+      <td class="table-secondary" >{{students.name}}</td>
+      <td class="table-success">{{students.reg}}</td>
+      <td class="table-danger">{{students.sec}}</td>
+      <td class="table-warning">{{students.project_name}}</td>
+      <td class="table-info">{{students.project_field}}</td>
+      <td class="table-light">{{students.superident}}</td>
+    </tr>
+   
+       <tr>
+
+   
+      <th class="table-primary" scope="row">{{forloop.counter}}</th>
+      <td class="table-secondary" >{{students.name}}</td>
+      <td class="table-success">{{students.reg}}</td>
+      <td class="table-danger">{{students.sec}}</td>
+      <td class="table-warning">{{students.project_name}}</td>
+      <td class="table-info">{{students.project_field}}</td>
+      <td class="table-light">{{students.superident}}</td>
+    </tr>
+   
+       <tr>
+
+   
+      <th class="table-primary" scope="row">{{forloop.counter}}</th>
+      <td class="table-secondary" >{{students.name}}</td>
+      <td class="table-success">{{students.reg}}</td>
+      <td class="table-danger">{{students.sec}}</td>
+      <td class="table-warning">{{students.project_name}}</td>
+      <td class="table-info">{{students.project_field}}</td>
+      <td class="table-light">{{students.superident}}</td>
+    </tr>
+
 
   </tbody>
 
